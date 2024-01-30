@@ -4,7 +4,6 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import cors from "cors";
 import route from "./routes/userRoute.js";
-import Path from "path";
 import path from "path";
 
 const app = express();
