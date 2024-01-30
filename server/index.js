@@ -26,8 +26,8 @@ mongoose.connect(mongourl).then(() => {
 
 const _dirname = path.resolve();
 app.use("/api", route);
-app.use((express.static(path.join(_dirname, '/client/dist'))))
+app.use((express.static(path.join(_dirname, '/client/build'))))
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(_dirname, 'client', 'dist', 'index.html'))
+    res.sendFile(path.join(_dirname, 'client', 'build', 'index.html'))
 })
