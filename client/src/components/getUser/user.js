@@ -27,7 +27,6 @@ const User = () => {
                 console.log(error);
             })
     }
-
     return (<>
         <Link to={"/add"}><h5 className="m-5">add User</h5></Link>
         <table className="table m-5">
