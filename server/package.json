@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "npm install && npm run build"
+    "start": "nodemon index.js"
   },
   "author": "yagna",
   "license": "ISC",
